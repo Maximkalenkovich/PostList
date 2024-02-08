@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useGetPostsQuery } from '../api/jsonPlaceholderApi';
 import { List, AutoSizer, CellMeasurer, CellMeasurerCache, ListRowProps } from 'react-virtualized';
-import './PostsListPage.css'; // Импортируйте файл со стилями
+import './PostsListPage.css';
 
 const PostsListPage: React.FC = () => {
     const { data: posts, isLoading, isError, refetch } = useGetPostsQuery({});

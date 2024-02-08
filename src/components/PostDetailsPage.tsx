@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useGetPostQuery } from '../api/jsonPlaceholderApi';
-// Импортируйте файл со стилями
 import s from './PostDetailesPage.module.css'
 
 const PostDetailsPage: React.FC = () => {
