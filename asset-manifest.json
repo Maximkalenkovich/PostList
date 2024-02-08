@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PostList/static/css/main.6f3d699d.css",
+    "main.js": "/PostList/static/js/main.872764fa.js",
+    "index.html": "/PostList/index.html",
+    "main.6f3d699d.css.map": "/PostList/static/css/main.6f3d699d.css.map",
+    "main.872764fa.js.map": "/PostList/static/js/main.872764fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f3d699d.css",
+    "static/js/main.872764fa.js"
+  ]
+}
