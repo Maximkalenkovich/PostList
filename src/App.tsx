@@ -8,6 +8,7 @@ const App = () => {
         <Router>
             <Routes>
                 <Route  path="/" element={<PostsListPage/>} />
+                <Route  path="/PostList" element={<PostsListPage/>} />
                 <Route path="/post/:postId" element={<PostDetailsPage/>} />
             </Routes>
         </Router>
